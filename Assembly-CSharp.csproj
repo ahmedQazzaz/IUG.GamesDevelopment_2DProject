@@ -56,13 +56,15 @@
     <Analyzer Include="/Applications/Visual Studio (Preview).app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/UIEvents.cs" />
     <Compile Include="Assets/Code/101/playerCode.cs" />
+    <Compile Include="Assets/PlayerController.cs" />
+    <Compile Include="Assets/CoinScript.cs" />
     <Compile Include="Assets/Code/202/PlayerControl.cs" />
     <Compile Include="Assets/Code/Player.cs" />
     <Compile Include="Assets/Code/UIManager.cs" />
-    <Compile Include="Assets/PlayerController.cs" />
-    <Compile Include="Assets/UIEvents.cs" />
-    <Compile Include="Assets/CoinScript.cs" />
+    <Compile Include="Assets/PlayerMovement.cs" />
+    <Compile Include="Assets/LevelController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

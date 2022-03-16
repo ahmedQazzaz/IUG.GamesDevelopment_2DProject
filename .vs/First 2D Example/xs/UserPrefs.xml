@@ -1,22 +1,20 @@
 ﻿<Properties StartupConfiguration="{6BE8E72F-0CA8-E93B-A8C8-98C7C1490298}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5c6cce90-324f-46f1-8bcc-cf8e644b90c3" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/202/PlayerControl.cs">
     <Files>
-      <File FileName="Assets/PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/PlayerController.cs" Line="42" Column="28" />
       <File FileName="../../Work/Formal Work/IUG-QuizSystem/IUG-QuizSystem/Resources/Views/index.leaf" Line="3" Column="7" />
       <File FileName="../../Work/Formal Work/IUG-QuizSystem/IUG-QuizSystem/Resources/Views/index.html" Line="6" Column="44" />
-      <File FileName="Assets/Code/Player.cs" Line="41" Column="40" />
+      <File FileName="Assets/Code/Player.cs" Line="28" Column="30" />
       <File FileName="Assets/Code/UIManager.cs" Line="14" Column="1" />
       <File FileName="Assets/Code/101/playerCode.cs" Line="19" Column="48" />
-      <File FileName="Assets/Code/202/PlayerControl.cs" Line="49" Column="71" />
+      <File FileName="Assets/Code/202/PlayerControl.cs" Line="80" Column="20" />
       <File FileName="Assets/UIEvents.cs" Line="26" Column="25" />
       <File FileName="Assets/CoinScript.cs" Line="9" Column="12" />
+      <File FileName="Assets/PlayerMovement.cs" Line="36" Column="10" />
+      <File FileName="Assets/LevelController.cs" Line="26" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,4 +32,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="436d2abb-cd0d-474d-8245-5ce0d0432a23" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

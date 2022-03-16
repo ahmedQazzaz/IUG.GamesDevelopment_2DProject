@@ -37,6 +37,18 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        canJump = true;
+        Vector2 point = collision.contacts[0].normal;
+        if (point.y > 0) {
+            canJump = true;
+        }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Destroy(collision.gameObject);
+        GameObject ev = GameObject.Find("EventSystem");
+        LevelController lc = ev.GetComponent<LevelController>();
+        lc.AddScore(1);
     }
 }
